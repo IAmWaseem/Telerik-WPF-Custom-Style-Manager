@@ -1,0 +1,10 @@
+﻿<Window x:Class="TelerikThemeTesting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation">
+    <StackPanel>
+        <telerik:RadListBox x:Name="themesList" Width="200" SelectionChanged="themesList_SelectionChanged" />
+        <Button Content="Get Theme" x:Name="GetThemeButton" Click="GetThemeButton_Click" />
+    </StackPanel>
+</Window>
